@@ -1,6 +1,7 @@
 <html></html>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-<body><h2>ABSENSI LAPORAN KERJA HARIAN LEPAS HALDIN</h2>
+<body><h4>ABSENSI LAPORAN KERJA KARYAWAN HARIAN </h4><br>
+<h4>HALDIN PACIFIC SEMESTA </h4>
 <script>
         function updateOptions() {
             var produksiSelect = document.getElementById("produksi");
