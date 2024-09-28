@@ -1,6 +1,8 @@
 <html></html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-<body><h4>ABSENSI LAPORAN KERJA KARYAWAN HARIAN </h4><br>
+<body class="bg-dark text-white"><h4>ABSENSI LAPORAN KERJA KARYAWAN HARIAN </h4><br>
 <h4>HALDIN PACIFIC SEMESTA </h4>
 <script>
         function updateOptions() {
@@ -20,7 +22,8 @@
                         steps: [
                             "Suport SCC",
                             "Suport BIB",
-                            "Suport Meco"
+                            "Suport Meco",
+                            "Cleaning"
                         ]
                     },
                     {
@@ -77,7 +80,8 @@
                         steps: [
                             "Suport SCC",
                             "Suport BIB",
-                            "Suport Meco"
+                            "Suport Meco",
+                            "Cleaning"
                         ]
                     },
                     {
@@ -169,6 +173,7 @@
             <br>
             <label for="timeInput"> Jam Masuk </label>
             <input type="time" id="time1" name="timeInput" required>
+            <br>
             <label for="timeInput"> Jam Keluar </label>
             <input type="time" id="time2" name="timeInput" required>
             <br>
@@ -226,7 +231,7 @@
 
 
 <div class="container mt-5">
-  <table id="dataTable" class="table table-bordered">
+  <table id="dataTable" class="table table-dark">
     <thead>
         <tr>
             <th>No</th>
@@ -244,4 +249,4 @@
 
 </form>
 
-</body></html>
+</body></head></html>
